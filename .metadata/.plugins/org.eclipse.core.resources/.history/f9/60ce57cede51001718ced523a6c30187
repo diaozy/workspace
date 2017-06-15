@@ -1,0 +1,18 @@
+package cn.itcast.chapter09.model2.domain;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class RegisterFormBean {
+	private String name;
+	private String password;
+	private String password2;
+	private String email;
+	private Map<String,String> errors = new HashMap<String,String>();
+	
+	
+	
+	
+	
+}
